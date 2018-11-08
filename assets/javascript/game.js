@@ -7,7 +7,6 @@ var guessesRemaining = 9;
 var lettersGuessed  = [];
 var wins = 0;
 var losses = 0;
-var ties = 0;
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 var wrongLetter = [];
@@ -25,7 +24,7 @@ console.log(wordBank[i]);
 
 // computer searches through selected word for the user's guessed letter 
 // if the letter is in the word, computer fills it in. 
-//if the letter is not in the word, computer returns the letter guessed and reduced the number of guesses remaining
+// if the letter is not in the word, computer returns the letter guessed and reduced the number of guesses remaining
 // rinse repeat until the user has guessed the word or runs out of guesses 
 // upon win, play song 
 // upon loss, alert Sorry! Press any key to try again!
